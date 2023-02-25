@@ -125,8 +125,9 @@ void NAF(phylo P[], sample S, traits T)
 }
 
 // ---------- READ MEANS -----------------------------------------------------
+int A_DUMMY_VARIABLE = 50;
 
-means ReadMeans(phylo Intree, char meansfile[50])
+means ReadMeans(phylo Intree, char meansfile[A_DUMMY_VARIABLE])
 {
 
   char line[500];
